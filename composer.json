@@ -3,6 +3,7 @@
     "craftcms/cms": "^3.5.10",
     "craftcms/feed-me": "^4.3",
     "craftcms/redactor": "^2.8",
+    "servd/craft-asset-storage": "^2.4",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {

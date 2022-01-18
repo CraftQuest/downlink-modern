@@ -32,7 +32,15 @@ handle: podcastEpisodes
 hasUrls: true
 name: 'Podcast Episodes'
 settings:
-  path: $ASSETS_PODCAST_EPISODE_PATH
+  cdnUrlPattern: ''
+  customSubfolder: podcast-episodes
+  makeUploadsPublic: true
+  optimisePrefix: ''
+  optimiseUrlPattern: ''
+  projectSlug: ''
+  securityKey: ''
 sortOrder: 1
-type: craft\volumes\Local
-url: $ASSETS_PODCAST_EPISODE_URL
+titleTranslationKeyFormat: null
+titleTranslationMethod: null
+type: servd\AssetStorage\Volume
+url: 'https://cdn2.assets-servd.host/'

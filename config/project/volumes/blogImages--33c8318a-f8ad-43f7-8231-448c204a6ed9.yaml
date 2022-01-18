@@ -32,7 +32,15 @@ handle: blogImages
 hasUrls: true
 name: 'Blog Images'
 settings:
-  path: $ASSETS_BLOG_IMAGES_PATH
+  cdnUrlPattern: ''
+  customSubfolder: blog-images
+  makeUploadsPublic: true
+  optimisePrefix: ''
+  optimiseUrlPattern: ''
+  projectSlug: ''
+  securityKey: ''
 sortOrder: 2
-type: craft\volumes\Local
-url: $ASSETS_IMAGES_URL
+titleTranslationKeyFormat: null
+titleTranslationMethod: null
+type: servd\AssetStorage\Volume
+url: 'https://cdn2.assets-servd.host/'
