@@ -1,6 +1,6 @@
 # Downlink
 
-This project runs Craft CMS 3 (latest version of as 1/17/22) and the following plugins:
+This project runs Craft CMS 5 (latest version of as 11/8/25) and the following plugins:
 - Feed Me
 - Redactor
 - Servd Asset & Helpers
@@ -45,7 +45,7 @@ ddev start
 Craft uses Composer to fetch software dependencies. Every time we set up a new environment, we need to run `composer install`. Since we're using DDEV for localhosting, we'll run it right on the container using the `ddev exec` subcommand.
 
 ```bash
-ddev exec composer install
+ddev composer install
 ```
 _If you're prompted to trust `yiisoft/yii2-composer` or `craftcms/plugin-installer` answer yes to both._
 
@@ -60,7 +60,7 @@ In the project, there's a zip file in `db/`. Unzip that file using your computer
 On the command line, run the following, which will import the starter database and  into your local environment:
 
 ```bash
-ddev exec php craft db/restore db-seed/starter-db.sql 
+ddev craft db/restore db-seed/starter-db.sql 
 ```
 
 Wait for this to complete before moving on to the next step.
