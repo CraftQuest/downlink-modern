@@ -23,24 +23,16 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\AssetTitleField
+            type: craft\fieldlayoutelements\assets\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
+fs: blogImages
 handle: blogImages
 hasUrls: true
 name: 'Blog Images'
-settings:
-  cdnUrlPattern: ''
-  customSubfolder: blog-images
-  makeUploadsPublic: true
-  optimisePrefix: ''
-  optimiseUrlPattern: ''
-  projectSlug: ''
-  securityKey: ''
 sortOrder: 2
 titleTranslationKeyFormat: null
 titleTranslationMethod: null
-type: servd\AssetStorage\Volume
 url: 'https://cdn2.assets-servd.host/'

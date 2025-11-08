@@ -1,9 +1,49 @@
-dateModified: 1762629932
+dateModified: 1762630344
 email:
   fromEmail: ryan@mijingo.com
   fromName: Downlink
   template: null
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blogImages:
+    hasUrls: true
+    name: 'Blog Images'
+    settings:
+      cdnUrlPattern: ''
+      customSubfolder: blog-images
+      makeUploadsPublic: true
+      optimisePrefix: ''
+      optimiseUrlPattern: ''
+      projectSlug: ''
+      securityKey: ''
+    type: servd\AssetStorage\AssetsPlatform\Fs
+    url: 'https://cdn2.assets-servd.host/'
+  podcastEpisodes:
+    hasUrls: true
+    name: 'Podcast Episodes'
+    settings:
+      cdnUrlPattern: ''
+      customSubfolder: podcast-episodes
+      makeUploadsPublic: true
+      optimisePrefix: ''
+      optimiseUrlPattern: ''
+      projectSlug: ''
+      securityKey: ''
+    type: servd\AssetStorage\AssetsPlatform\Fs
+    url: 'https://cdn2.assets-servd.host/'
+  userPhotos:
+    hasUrls: true
+    name: 'User Photos'
+    settings:
+      cdnUrlPattern: ''
+      customSubfolder: user-photos
+      makeUploadsPublic: true
+      optimisePrefix: ''
+      optimiseUrlPattern: ''
+      projectSlug: ''
+      securityKey: ''
+    type: servd\AssetStorage\AssetsPlatform\Fs
+    url: 'https://cdn2.assets-servd.host/'
 meta:
   __names__:
     1bf5de18-32cf-4854-ad4e-b7d9014dcf02: 'User Photos' # User Photos
@@ -13,7 +53,7 @@ plugins:
   feed-me:
     edition: standard
     enabled: true
-    schemaVersion: 4.4.1
+    schemaVersion: 5.14.0
   redactor:
     edition: standard
     enabled: true
@@ -21,7 +61,7 @@ plugins:
   servd-asset-storage:
     edition: standard
     enabled: true
-    schemaVersion: 2.0.5
+    schemaVersion: 3.0.0
     settings:
       assetsEnvironment: ''
       assetsEnvironmentOverwrite: ''
@@ -38,10 +78,11 @@ system:
   edition: pro
   live: true
   name: Downlink
-  schemaVersion: 3.8.0.1
+  schemaVersion: 4.15.0.0
   timeZone: UTC
 users:
   allowPublicRegistration: false
+  deactivateByDefault: false
   defaultGroup: null
   photoSubpath: null
   photoVolumeUid: null
