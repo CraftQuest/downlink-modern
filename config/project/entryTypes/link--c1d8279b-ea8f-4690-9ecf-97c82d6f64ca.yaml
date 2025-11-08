@@ -2,24 +2,69 @@ fieldLayouts:
   02708298-ea20-41d0-a674-6fba7a7d8c0c:
     tabs:
       -
+        elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
             instructions: null
             label: Title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e79e796b-4aaf-4bd6-91bc-4093e0e9643a
+            userCondition: null
+            warning: null
+            width: 100
           -
-            fieldUid: 8cb1f015-2f0a-4758-89c3-fbb35b49a190
+            elementCondition: null
+            fieldUid: 8cb1f015-2f0a-4758-89c3-fbb35b49a190 # Link URL
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 37a27065-5c3a-4113-93dd-9a838fb88486
+            userCondition: null
+            warning: null
+            width: 100
           -
-            fieldUid: 4a7f66f8-f0f6-47b7-89de-5eca5fc48600
+            elementCondition: null
+            fieldUid: 4a7f66f8-f0f6-47b7-89de-5eca5fc48600 # Link Description
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5f4b86e5-d7fc-4fc6-81a9-ae316d661597
+            userCondition: null
+            warning: null
+            width: 100
         name: 'Link Content'
-        sortOrder: 1
+        uid: fdf8cf57-33cc-463a-a112-843080e8e5d9
+        userCondition: null
 handle: link
 hasTitleField: true
 name: Link
-section: 9f8d5e5d-08f3-4e6e-bb6b-0e0e63deae34
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 0
 titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

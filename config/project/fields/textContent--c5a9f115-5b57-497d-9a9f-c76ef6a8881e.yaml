@@ -1,13 +1,11 @@
 columnSuffix: null
-contentColumnType: text
-handle: linkDescription
+handle: textContent
 instructions: null
-name: 'Link Description'
+name: 'Body - Text - Content'
 searchable: true
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
-  columnType: text
   configSelectionMode: choose
   defaultTransform: ''
   manualConfig: ''

@@ -1,14 +1,12 @@
 columnSuffix: null
-contentColumnType: text
-handle: linkUrl
+handle: citation
 instructions: null
-name: 'Link URL'
+name: 'Body - Blockquote - Citation'
 searchable: true
 settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: text
   initialRows: 4
   multiline: false
   placeholder: null

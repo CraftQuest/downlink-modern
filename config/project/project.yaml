@@ -1,4 +1,4 @@
-dateModified: 1762630344
+dateModified: 1762631663
 email:
   fromEmail: ryan@mijingo.com
   fromName: Downlink
@@ -16,6 +16,7 @@ fs:
       optimiseUrlPattern: ''
       projectSlug: ''
       securityKey: ''
+      subfolder: $SERVD_PROJECT_SLUG/local/blog-images/
     type: servd\AssetStorage\AssetsPlatform\Fs
     url: 'https://cdn2.assets-servd.host/'
   podcastEpisodes:
@@ -29,6 +30,7 @@ fs:
       optimiseUrlPattern: ''
       projectSlug: ''
       securityKey: ''
+      subfolder: $SERVD_PROJECT_SLUG/local/podcast-episodes/
     type: servd\AssetStorage\AssetsPlatform\Fs
     url: 'https://cdn2.assets-servd.host/'
   userPhotos:
@@ -42,13 +44,36 @@ fs:
       optimiseUrlPattern: ''
       projectSlug: ''
       securityKey: ''
+      subfolder: $SERVD_PROJECT_SLUG/local/user-photos/
     type: servd\AssetStorage\AssetsPlatform\Fs
     url: 'https://cdn2.assets-servd.host/'
 meta:
   __names__:
     1bf5de18-32cf-4854-ad4e-b7d9014dcf02: 'User Photos' # User Photos
+    1d0a4430-e8d9-49c3-b910-64c5008d3f3b: 'Episode Description' # Episode Description
+    4a7f66f8-f0f6-47b7-89de-5eca5fc48600: 'Link Description' # Link Description
+    6f055d5e-e5e3-4363-81de-c7dff55ad3b3: 'Book ASIN' # Book ASIN
     7c831f23-da90-4f0d-90a2-454375ee2e8e: 'Podcast Episodes' # Podcast Episodes
+    8cb1f015-2f0a-4758-89c3-fbb35b49a190: 'Link URL' # Link URL
+    8d76cad1-25d8-4b50-8cae-e68b02cac669: 'Downlink (en-US)' # Downlink (en-US)
+    9f8d5e5d-08f3-4e6e-bb6b-0e0e63deae34: Blog # Blog
     33c8318a-f8ad-43f7-8231-448c204a6ed9: 'Blog Images' # Blog Images
+    35c13b6c-aaee-499a-9580-96963583b7f4: 'Downlink (en-US)' # Downlink (en-US)
+    86d15507-220a-4d5c-b1d0-eab2b173619f: Default # Default
+    237da2ff-504f-4e2c-bf6c-152bf831c8f1: Default # Default
+    0464fede-3a5f-4c7d-9de1-c1b8021eaa8d: Review # Review
+    736e7c2a-c6c7-4609-b1f2-38e7709e56cf: 'Teaser Image' # Teaser Image
+    831c6792-c373-4eaa-b38d-caa740ca83d2: 'Public Schema' # Public Schema
+    9491ba1e-9c32-45fe-a97f-b0d25dc40071: 'Episode File' # Episode File
+    5610066d-2f20-4444-a547-eb560bda26a5: Homepage # Homepage
+    a95fdc3d-b143-489a-8ee7-22ae7268c278: Default # Default
+    b2bfca42-e66d-4231-8a3c-7245e9b49ac1: Homepage # Homepage
+    b69d7902-4ddd-45fb-8c40-80d77d3a82eb: Podcast # Podcast
+    b72c1e8b-f22a-42b5-846d-8314c08dd793: Tags # Tags
+    c1d8279b-ea8f-4690-9ecf-97c82d6f64ca: Link # Link
+    cf2dac30-56a5-4a12-91a4-ed35d2eed4ab: 'Teaser Copy' # Teaser Copy
+    e1d02456-6cc1-4385-9e98-73bd2a5e4abf: Default # Default
+    f4696807-fad3-4e93-a26a-e1946637d383: Body # Body
 plugins:
   feed-me:
     edition: standard
@@ -78,7 +103,7 @@ system:
   edition: pro
   live: true
   name: Downlink
-  schemaVersion: 4.15.0.0
+  schemaVersion: 5.8.0.3
   timeZone: UTC
 users:
   allowPublicRegistration: false

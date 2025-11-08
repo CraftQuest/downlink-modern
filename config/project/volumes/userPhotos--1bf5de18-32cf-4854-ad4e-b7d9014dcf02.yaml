@@ -2,6 +2,7 @@ fieldLayouts:
   60506d74-1e07-4c6f-b9e3-92677732d6fb:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,7 +10,9 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
+            inputType: null
             instructions: null
             label: null
             max: null
@@ -24,15 +27,18 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: fb50a723-2c50-40c8-9af3-3b8fde7d540f
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: a51f10bf-8382-44eb-aaf8-38c0974a57aa
+        userCondition: null
 fs: userPhotos
 handle: userPhotos
-hasUrls: true
 name: 'User Photos'
 sortOrder: 3
 titleTranslationKeyFormat: null
-titleTranslationMethod: null
-url: 'https://cdn2.assets-servd.host/'
+titleTranslationMethod: site
+transformFs: null
+transformSubpath: ''

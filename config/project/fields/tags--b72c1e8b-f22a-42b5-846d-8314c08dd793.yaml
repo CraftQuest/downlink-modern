@@ -1,12 +1,22 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: f445487e-f6a2-471c-a08b-3096f57da2d0
 handle: tags
 instructions: null
 name: Tags
 searchable: true
 settings:
+  allowSelfRelations: false
+  branchLimit: null
   localizeRelations: false
-  source: 'taggroup:237da2ff-504f-4e2c-bf6c-152bf831c8f1'
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showSiteMenu: true
+  source: 'taggroup:237da2ff-504f-4e2c-bf6c-152bf831c8f1' # Default
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
 translationKeyFormat: null
-translationMethod: none
+translationMethod: site
 type: craft\fields\Tags

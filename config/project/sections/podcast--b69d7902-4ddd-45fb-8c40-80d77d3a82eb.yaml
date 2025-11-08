@@ -1,5 +1,10 @@
+defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    uid: 86d15507-220a-4d5c-b1d0-eab2b173619f # Default
 handle: podcast
+maxAuthors: 1
 name: Podcast
 previewTargets:
   -
@@ -7,7 +12,7 @@ previewTargets:
     urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  35c13b6c-aaee-499a-9580-96963583b7f4:
+  35c13b6c-aaee-499a-9580-96963583b7f4: # Downlink (en-US)
     enabledByDefault: true
     hasUrls: true
     template: entry

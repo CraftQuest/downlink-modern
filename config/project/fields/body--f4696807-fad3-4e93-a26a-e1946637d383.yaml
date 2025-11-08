@@ -1,13 +1,22 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: f445487e-f6a2-471c-a08b-3096f57da2d0
 handle: body
-instructions: ''
+instructions: null
 name: Body
 searchable: true
 settings:
-  contentTable: '{{%matrixcontent_body}}'
-  maxBlocks: null
+  entryTypes:
+    -
+      uid: 39b7122f-8343-4bfd-ba42-51db49838e4a
+    -
+      uid: 67031931-0155-4204-8483-32624008ae23
+    -
+      uid: 67470af9-2f4e-4aac-b68c-d4c787c163e4
+  maxEntries: null
+  minEntries: null
+  propagationKeyFormat: null
   propagationMethod: all
+  viewMode: blocks
 translationKeyFormat: null
-translationMethod: none
+translationMethod: site
 type: craft\fields\Matrix

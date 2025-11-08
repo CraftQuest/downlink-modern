@@ -1,0 +1,57 @@
+color: null
+description: null
+fieldLayouts:
+  17e44b1b-29eb-4b2d-af27-7cabc3c1ac4a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: 1a3b8507-a4a7-472b-9b10-e99f057d5cd6
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Quote
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8d17948-cc98-4962-a18d-9c9e675f9b18
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: null
+            editCondition: null
+            elementCondition: null
+            fieldUid: b0d7dcf1-30a9-4fb9-90ba-3fdf5927e19c
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Citation
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 352f9bf0-e4fb-448c-b652-7cadc25214db
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a567c6d7-743d-4376-9d55-5a1869bc0caa
+        userCondition: null
+handle: blockquote
+hasTitleField: false
+icon: null
+name: Blockquote
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

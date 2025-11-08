@@ -1,5 +1,11 @@
+defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    handle: default
+    uid: e1d02456-6cc1-4385-9e98-73bd2a5e4abf # Default
 handle: review
+maxAuthors: 1
 name: Review
 previewTargets:
   -
@@ -7,7 +13,7 @@ previewTargets:
     urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
-  35c13b6c-aaee-499a-9580-96963583b7f4:
+  35c13b6c-aaee-499a-9580-96963583b7f4: # Downlink (en-US)
     enabledByDefault: true
     hasUrls: true
     template: entry

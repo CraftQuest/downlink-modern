@@ -1,5 +1,5 @@
 fieldLayouts:
-  d64a50e0-3937-4444-a8f4-1173a41390a0:
+  2b9c7d28-9188-4b33-812c-932cd13f32ca:
     tabs:
       -
         elementCondition: null
@@ -27,38 +27,62 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 31fa5f3e-f9a4-4ef9-98b4-99beb1eda7da
+            uid: f94ada10-c416-4cbe-bfd7-e23a1e96dd67
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9491ba1e-9c32-45fe-a97f-b0d25dc40071 # Episode File
+            fieldUid: 736e7c2a-c6c7-4609-b1f2-38e7709e56cf # Teaser Image
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8268a353-f2d1-4e9b-a2a9-aaa1ef3bd603
+            uid: d7d3682e-07e2-4e62-90a3-45afa6802033
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1d0a4430-e8d9-49c3-b910-64c5008d3f3b # Episode Description
+            fieldUid: cf2dac30-56a5-4a12-91a4-ed35d2eed4ab # Teaser Copy
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 150d22a1-8147-4fbd-88f4-ce05df2802bf
+            uid: 73667ecd-a3c3-4737-9032-a86e4063c2c9
             userCondition: null
             warning: null
             width: 100
-        name: 'Podcast Details'
-        uid: a8f3ec83-d19b-4c9c-ad06-d84d1000bfcb
+          -
+            elementCondition: null
+            fieldUid: f4696807-fad3-4e93-a26a-e1946637d383 # Body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c29b0c67-40d9-46d8-8949-a09373f7b207
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b72c1e8b-f22a-42b5-846d-8314c08dd793 # Tags
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aaf55c98-7e94-40db-9826-0a3c5509ce9a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Default
+        uid: 83f2dfe0-dfb9-4c3f-99d9-9cabfbbae03e
         userCondition: null
-handle: default
+handle: blog_default
 hasTitleField: true
 name: Default
 showStatusField: true

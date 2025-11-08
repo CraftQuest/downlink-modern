@@ -1,9 +1,9 @@
 {
   "require": {
-    "craftcms/cms": "^4.0.0",
-    "craftcms/feed-me": "^5.14.0",
-    "craftcms/redactor": "^3.1.0",
-    "servd/craft-asset-storage": "^3.7.1",
+    "craftcms/cms": "^5.0.0",
+    "craftcms/feed-me": "^6.11.0",
+    "craftcms/redactor": "^4.2.0",
+    "servd/craft-asset-storage": "^4.2.1",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
@@ -18,7 +18,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.0.2"
+      "php": "8.2"
     },
     "allow-plugins": {
       "craftcms/plugin-installer": true,

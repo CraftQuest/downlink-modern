@@ -1,5 +1,5 @@
 fieldLayouts:
-  d64a50e0-3937-4444-a8f4-1173a41390a0:
+  e400c5e4-326e-47e1-9074-cc4a1de24b82:
     tabs:
       -
         elementCondition: null
@@ -14,7 +14,7 @@ fieldLayouts:
             id: null
             inputType: null
             instructions: null
-            label: Title
+            label: 'Review Title'
             max: null
             min: null
             name: null
@@ -27,38 +27,38 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 31fa5f3e-f9a4-4ef9-98b4-99beb1eda7da
+            uid: 6657245d-095b-40c5-91d2-5336d056c16a
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 9491ba1e-9c32-45fe-a97f-b0d25dc40071 # Episode File
+            fieldUid: f4696807-fad3-4e93-a26a-e1946637d383 # Body
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 8268a353-f2d1-4e9b-a2a9-aaa1ef3bd603
+            uid: 4e9c6329-db69-4138-a105-3ac1f1d711a4
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 1d0a4430-e8d9-49c3-b910-64c5008d3f3b # Episode Description
+            fieldUid: 6f055d5e-e5e3-4363-81de-c7dff55ad3b3 # Book ASIN
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 150d22a1-8147-4fbd-88f4-ce05df2802bf
+            uid: 4a471e50-0b5e-4c67-ab07-ffd0ec1d5e15
             userCondition: null
             warning: null
             width: 100
-        name: 'Podcast Details'
-        uid: a8f3ec83-d19b-4c9c-ad06-d84d1000bfcb
+        name: 'Review Content'
+        uid: e31512b7-e3da-4373-a1ac-cea66e050c81
         userCondition: null
-handle: default
+handle: review_default
 hasTitleField: true
 name: Default
 showStatusField: true

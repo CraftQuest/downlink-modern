@@ -1,16 +1,26 @@
-contentColumnType: string
-fieldGroup: f445487e-f6a2-471c-a08b-3096f57da2d0
+columnSuffix: null
+contentColumnType: text
 handle: teaserCopy
-instructions: ''
+instructions: null
 name: 'Teaser Copy'
 searchable: true
 settings:
   availableTransforms: '*'
   availableVolumes: '*'
-  cleanupHtml: '1'
   columnType: text
-  configFile: Simple.json
-  purifyHtml: '1'
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: Simple.json
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  uiMode: enlarged
 translationKeyFormat: null
 translationMethod: none
 type: craft\redactor\Field

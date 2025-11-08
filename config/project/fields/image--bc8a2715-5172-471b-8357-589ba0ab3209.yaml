@@ -1,8 +1,7 @@
 columnSuffix: null
-contentColumnType: string
-handle: teaserImage
+handle: image
 instructions: null
-name: 'Teaser Image'
+name: 'Body - Image - Image'
 searchable: true
 settings:
   allowSelfRelations: false
@@ -11,9 +10,9 @@ settings:
   allowedKinds:
     - image
   branchLimit: null
-  defaultUploadLocationSource: 'volume:7c831f23-da90-4f0d-90a2-454375ee2e8e' # Podcast Episodes
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:33c8318a-f8ad-43f7-8231-448c204a6ed9' # Blog Images
   defaultUploadLocationSubpath: null
-  localizeRelations: false
   maintainHierarchy: false
   maxRelations: 1
   minRelations: null
@@ -23,7 +22,9 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:7c831f23-da90-4f0d-90a2-454375ee2e8e' # Podcast Episodes
   restrictedLocationSubpath: null
-  selectionLabel: 'Add image to use in homepage/listing page teaser.'
+  selectionLabel: 'Add an image'
+  showCardsInGrid: false
+  showSearchInput: true
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
@@ -33,5 +34,5 @@ settings:
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: craft\fields\Assets
